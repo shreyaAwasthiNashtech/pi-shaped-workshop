@@ -7,6 +7,7 @@ Below is the content and explanation of my Dockerfile-
 (This sets the working directory inside the container where all your code and files will go)
 
 ****COPY package*.json ./****
+
 **RUN npm install**
 (This copies the package.json file (which lists your app's dependencies) and installs those dependencies)
 
@@ -21,6 +22,7 @@ Below is the content and explanation of my Dockerfile-
 
 **Core Concept Questions**
 **Question-1: Why is Docker useful in building and deploying microservices?**
+
 Docker is useful because it keeps everything our app needs (like code, libraries, settings) in one neat package called a container. That container works the same everywhere – on our laptop, a friend’s computer, or a cloud server.
 For example, in a banking app, we might have different parts like:
 Login service
@@ -35,6 +37,7 @@ In scaling, multiple containers can be launched from the same image to handle lo
 A Docker image is like a recipe. It has all the steps and ingredients to create a dish (our app). A Docker container is the actual dish made from that recipe – it’s the running version. If we want to run 10 copies of our web app (to handle lots of users), we use the same image to create 10 containers. That’s how it helps in scaling.
 
 **Question-3: How does Kubernetes help when using Docker for big apps?**
+
 Docker is great for running one or two apps. But what if our app becomes huge and needs to run hundreds of containers? This is where Kubernetes helps us:
 It automatically starts, stops, or restarts containers if needed.
 It spreads containers across multiple servers.
