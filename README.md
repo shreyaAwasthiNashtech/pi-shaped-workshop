@@ -44,3 +44,6 @@ It spreads containers across multiple servers.
 It handles load balancing, so no server gets overloaded.
 It can update your app without downtime.
 For example- Imagining running an online shopping app during a Diwali sale – traffic is huge. Kubernetes makes sure the app stays fast and stable even with thousands of users.
+
+**Link to the docker hub image-**
+https://hub.docker.com/r/shreyaawasthi/hello-node-app:day1
