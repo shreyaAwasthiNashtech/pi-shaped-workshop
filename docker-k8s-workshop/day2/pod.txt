@@ -1,0 +1,3 @@
+NAME                                     READY   STATUS    RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
+hello-world-affinity                     1/1     Running   0          6m9s    10.244.0.3   minikube   <none>           <none>
+hello-world-deployment-54b68899f-pdtg2   1/1     Running   0          5m13s   10.244.0.4   minikube   <none>           <none>
